@@ -1,21 +1,23 @@
 import React from "react"
-import Footer from "../components/footer"
-import Header from "../components/header"
+import Layout from "../components/layout"
 
 const ContactPage = props => {
   return (
-    <div>
-      <Header />
+    <Layout>
+      {" "}
       <h1>Contact</h1>
       <p>
         The best way to reach me is via{" "}
-        <a href="https://twitter.com/dwyfrequency" target="_blank">
+        <a
+          href="https://twitter.com/dwyfrequency"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           @dwyfrequency
         </a>{" "}
         on twitter
       </p>
-      <Footer />
-    </div>
+    </Layout>
   )
 }
 
