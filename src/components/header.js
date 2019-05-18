@@ -1,22 +1,19 @@
 import React from "react"
 import { Link } from "gatsby"
+// import "./header.module.scss"
+import headerStyles from "./header.module.scss"
 
 const Header = props => {
   return (
-    <div
-    // style={{
-    //   display: "flex",
-    //   justifyContent: "space-between",
-    //   alignItems: "center",
-    //   background: "purple",
-    // }}
-    >
+    <div>
       <h1>Jack's Site</h1>
 
       <nav>
         <ul>
           <li>
-            <Link to="/">Main</Link>
+            <Link to="/" className={headerStyles.link}>
+              Main
+            </Link>
           </li>
           <li>
             <Link to="/about">About</Link>
