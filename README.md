@@ -1,3 +1,7 @@
+# Following tutorial
+
+[The Great Gatsby Bootcamp - Full Gatsby.js Tutorial Course](https://www.youtube.com/watch?v=kzWIUX3CpuI)
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
