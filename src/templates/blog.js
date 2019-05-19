@@ -22,6 +22,7 @@ const Blog = props => {
     <Layout>
       <h1>{title}</h1>
       <p>{date}</p>
+      {/* allows us to setup the html from our querydata */}
       <div
         dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}
       />
